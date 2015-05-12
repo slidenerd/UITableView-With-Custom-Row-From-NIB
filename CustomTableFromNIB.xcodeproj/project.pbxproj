@@ -13,6 +13,8 @@
 		CC6C03EE1B0217BC00CECE68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6C03ED1B0217BC00CECE68 /* Images.xcassets */; };
 		CC6C03F11B0217BC00CECE68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6C03EF1B0217BC00CECE68 /* LaunchScreen.xib */; };
 		CC6C03FD1B0217BC00CECE68 /* CustomTableFromNIBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6C03FC1B0217BC00CECE68 /* CustomTableFromNIBTests.swift */; };
+		CC6C04071B021D2D00CECE68 /* NameAndColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6C04061B021D2D00CECE68 /* NameAndColorCell.swift */; };
+		CC6C04091B021E9000CECE68 /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6C04081B021E9000CECE68 /* NameAndColorCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		CC6C03F61B0217BC00CECE68 /* CustomTableFromNIBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableFromNIBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6C03FB1B0217BC00CECE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC6C03FC1B0217BC00CECE68 /* CustomTableFromNIBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableFromNIBTests.swift; sourceTree = "<group>"; };
+		CC6C04061B021D2D00CECE68 /* NameAndColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndColorCell.swift; sourceTree = "<group>"; };
+		CC6C04081B021E9000CECE68 /* NameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameAndColorCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		CC6C03E31B0217BC00CECE68 /* CustomTableFromNIB */ = {
 			isa = PBXGroup;
 			children = (
+				CC6C04061B021D2D00CECE68 /* NameAndColorCell.swift */,
 				CC6C03E61B0217BC00CECE68 /* AppDelegate.swift */,
 				CC6C03E81B0217BC00CECE68 /* ViewController.swift */,
 				CC6C03EA1B0217BC00CECE68 /* Main.storyboard */,
 				CC6C03ED1B0217BC00CECE68 /* Images.xcassets */,
 				CC6C03EF1B0217BC00CECE68 /* LaunchScreen.xib */,
 				CC6C03E41B0217BC00CECE68 /* Supporting Files */,
+				CC6C04081B021E9000CECE68 /* NameAndColorCell.xib */,
 			);
 			path = CustomTableFromNIB;
 			sourceTree = "<group>";
@@ -192,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6C04091B021E9000CECE68 /* NameAndColorCell.xib in Resources */,
 				CC6C03EC1B0217BC00CECE68 /* Main.storyboard in Resources */,
 				CC6C03F11B0217BC00CECE68 /* LaunchScreen.xib in Resources */,
 				CC6C03EE1B0217BC00CECE68 /* Images.xcassets in Resources */,
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6C04071B021D2D00CECE68 /* NameAndColorCell.swift in Sources */,
 				CC6C03E91B0217BC00CECE68 /* ViewController.swift in Sources */,
 				CC6C03E71B0217BC00CECE68 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +417,7 @@
 				CC6C04021B0217BC00CECE68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC6C04031B0217BC00CECE68 /* Build configuration list for PBXNativeTarget "CustomTableFromNIBTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				CC6C04051B0217BC00CECE68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
